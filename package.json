@@ -1,12 +1,13 @@
 {
   "name": "vue-cli-plugin-bz",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "description": "build bz template",
   "author": "",
   "license": "ISC",
-  "dependencies": {}
+  "dependencies": {
+    "fs-extra": "^8.1.0",
+    "globby": "^10.0.1",
+    "minimatch": "^3.0.4",
+    "slash": "^3.0.0"
+  }
 }

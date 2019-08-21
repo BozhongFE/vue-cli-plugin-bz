@@ -1,0 +1,49 @@
+{
+  "root": true,
+  "env": {
+    "node": true
+  },
+  "extends": [
+    "plugin:vue/essential",
+    "@vue/airbnb"
+  ],
+  "parserOptions": {
+    "parser": "babel-eslint"
+  },
+  "rules": {
+    "no-console": 0,
+    "no-alert": 0,
+    "no-new": 0,
+    "no-shadow": 1,
+    "no-param-reassign": [
+      "error", 
+      { 
+        "props": false 
+      }
+    ],
+    "object-shorthand": 0,
+    "import/no-unresolved": 0,
+    "import/no-extraneous-dependencies": 0,
+    "max-len": ["error", 150],
+    "allowTernary": 0,
+    "consistent-return": 0,
+    "allowImplicit": 0,
+    "no-restricted-syntax": 0,
+    "no-extend-native": [
+      "error",
+      {
+        "exceptions": ["Date", "Array"]
+      }
+    ],
+    "quote-props": ["error", "consistent-as-needed"]
+  },
+  "globals": {
+    "$": true,
+    "wx": true,
+    "document": true,
+    "window": true,
+    "navigator": true,
+    "require": true,
+    "API": true
+  }
+}
